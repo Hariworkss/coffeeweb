@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white !important; 
+    background-color: brown;
+}
+
+.heropad{
+    padding-top: 15%;
+    padding-bottom: 100px;
+}
+.heromar{
+    margin-top: 5rem;
+}
+.main{
+    background: url(https://img.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_176474-5028.jpg?w=1060&t=st=1673605842~exp=1673606442~hmac=c24950f03549d7da70e78fb2af4105a678008275df5c7a53a3645aecb2d98abe);
+    background-size: cover;
+    width: 100%;
+    height: 743px;
+}
+.main h3{
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 5px 5px 30px ;
+    color: black;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: brown;
+    text-shadow: 5px 5px 30px ;
+    width: 40%;
+}
+.main .btn1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(213, 135, 79);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 1px 3px 4px black;
+}
+.main .btn1:hover{
+    background-color: rgb(100, 76, 17);
+    
+}
+.main .btn2{
+    height: 55px;
+    width: 138px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(100, 76, 17);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.main .btn2:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.about{
+    background-color: black;
+    color: rgb(120, 175, 233);
+}
+.about img{
+    width: 97%;
+    box-shadow: 2px 5px 18px rgb(4, 13, 25);
+}
+.offers{
+    margin-top: 100px;
+    width: 100%;
+    height: 40%;
+}
+/* position relative for offer bg */
+
+ .offerpos{
+    position: relative;
+ }
+ .offertext{ 
+    position: absolute;
+    bottom: 29%;
+    left: 12%;
+    font-weight: 1000;
+    font-size: 41px;
+    color: rgb(248, 245, 243);
+    text-shadow: 2px 5px 16px rgb(203, 42, 42);
+}
+.offerhov{
+    transition: .3s;
+}
+.offerhov:hover{
+    box-shadow: 2px 5px 41px 14px rgba(177, 88, 23, 0.836) ;
+    cursor: pointer;
+}
+
+
+
+.product1 .rowpad{
+    padding-left: 95px;
+}
+
+.modal-header{
+    margin-left: 35%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.progress{
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    margin-top: 30px;
+}
+.progress p{
+    color: white;
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(120, 175, 233);
+    height: 25px;
+    width: 95%;
+}
+.footerpad{
+    padding-left: 200px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(74, 172, 123);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: rgb(15, 82, 51);
+    
+}
+.btn2{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(72, 179, 97);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.colorme{
+    color: white;
+    background-color: brown;
+    border-radius: 3px;
+}
+.card{
+    
+    outline: none;
+    color: aliceblue;
+    transition: 0.5s;
+    
+}
+.card p{
+    color: gray;
+    
+
+}
+.cardbg{
+    background-color: rgb(145, 47, 47);
+}
+
+
+.card:hover{
+    box-shadow: 2px 9px 42px brown;
+    
+    
+}
+.about1{
+    height: 
+}
+.about1 img{
+    width: 500px;
+    box-shadow: -36px 2px 40px 5px rgb(182 159 130);
+    
+}
+.about1 .panel{
+    width: 400px;
+    height: 500px;
+    box-shadow: 32px 20px 77px 5px burlywood;
+    
+    
+}
+
+.f-bg{
+    background-color: rgba(155, 72, 13, 0.875);
+    padding: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .offers{
+        height: 98rem;
+    }
+  }
